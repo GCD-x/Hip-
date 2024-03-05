@@ -1,1 +1,23 @@
+; hipplus.lang - تعريف لغة hip+
+
+[Info]
+Name = "hip+"
+Version = "1.0"
+Description = "Advanced programming language for concurrent and functional development."
+Website = "https://hippluslang.org"
+
+[Paradigm]
+- Functional
+- Concurrent
+- Generative
+
+[MemoryManagement]
+- Automatic
+
+[ConcurrencyModel]
+- Async/Await
+
+[Syntax]
+Delimiters = "{ } ( ) [ ] , ;"
+Operators = "+ - * / = == === ! != !== < > <= >= && ||"
 
