@@ -4,9 +4,9 @@
     "memoryManagement": "Automatic",
     "concurrencyModel": "Async/Await",
     "colors": {
-        "primary": "#3498db",
-        "secondary": "#2ecc71",
-        "background": "#ecf0f1",
+        "primary": "#00ff00",  // اللون الأخضر
+        "secondary": "#ffff00",  // اللون الأصفر
+        "background": "#800080",  // اللون البنفسجي
         "text": "#333"
     },
     "typography": {
@@ -60,5 +60,5 @@
         "videos": ["mp4", "avi", "mkv"],
         "files": ["zip", "apk", "ABB"]
     }
-    }
-  
+        }
+        
