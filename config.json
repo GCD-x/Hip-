@@ -5,10 +5,13 @@
     "concurrencyModel": "Async/Await",
     "colors": {
         "text": "#ff0000",  // لون الخط (أحمر)
-        "code": "#800080"  // لون الشفرة (بنفسجي)
+        "code": "#800080",  // لون الشفرة (بنفسجي)
+        "background": "#282c34",  // لون الخلفية (رمادي داكن)
+        "primary": "#61dafb",  // لون رئيسي (أزرق سماوي)
+        "secondary": "#2ecc71"  // لون ثانوي (أخضر)
     },
     "typography": {
-        "fontFamily": "Roboto",
+        "fontFamily": "Monospace",
         "fontSize": {
             "heading1": "2rem",
             "heading2": "1.5rem",
@@ -20,23 +23,25 @@
         "horizontal": ["Left", "Center", "Right"]
     },
     "body": {
-        "background": "#fff",
+        "background": "#282c34",
         "margin": "0",
-        "padding": "10px",
-        "border": "1px solid #ddd"
+        "padding": "20px",
+        "border": "1px solid #ddd",
+        "borderRadius": "5px"
     },
     "head": {
-        "background": "#eee",
+        "background": "#20232a",
         "margin": "0",
         "padding": "10px",
-        "border": "1px solid #ddd"
+        "border": "1px solid #ddd",
+        "borderRadius": "5px"
     },
     "effects": {
         "shadows": "box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1)",
         "transitions": "all 0.3s ease-in-out"
     },
     "id": "uniqueID123",
-    "advancedFeatures": ["Metaprogramming", "CodeAnalysis"],
+    "advancedFeatures": ["Metaprogramming", "CodeAnalysis", "AdvancedSyntaxTree"],
     "modifiers": ["Static", "Dynamic", "FutureProof"],
     "description": "hip+ empowers developers with advanced features for concurrent and functional programming.",
     "website": "https://hippluslang.org",
