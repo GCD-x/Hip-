@@ -1,0 +1,6 @@
+# Contributing to hip+
+
+Thank you for considering contributing to hip+! Please follow these guidelines...
+
+...
+
