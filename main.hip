@@ -1,37 +1,105 @@
-// main.hip - Language master file "hip+"
-
-// Import statements
-import "standard_library.hip";
-
 // Program definition
-+Name# "MainProgram"
++Name# "AdvancedHipPlus"
+
+// &LexicalAnalysis#
++
+    Tokenization#: "Separation of code into meaningful elements (tokens)",
+    GitHub#: "Version control platform for collaborative software development"
+///
 
 // &Design
 +
+    Paradigm# : ["Functional", "Concurrent", "Generative"],
+    MemoryManagement# : "Automatic",
+    ConcurrencyModel# : "Async/Await",
     Colors: {
         Primary# : "#3498db",
+        Secondary# : "#2ecc71",
         Background# : "#ecf0f1",
         Text# : "#333"
     },
     Typography: {
         FontFamily# : "Roboto",
         FontSize# : {
+            Heading1# : "2rem",
+            Heading2# : "1.5rem",
             Body# : "1rem"
         }
-    }
+    },
+    Alignment# : {
+        Vertical# : ["Top", "Center", "Bottom"],
+        Horizontal# : ["Left", "Center", "Right"]
+    },
+    Body# : {
+        Background# : "#fff",
+        Margin# : "0",
+        Padding# : "10px",
+        Border# : "1px solid #ddd"
+    },
+    Head# : {
+        Background# : "#eee",
+        Margin# : "0",
+        Padding# : "10px",
+        Border# : "1px solid #ddd"
+    },
+    Effects# : {
+        Shadows# : "box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1)",
+        Transitions# : "all 0.3s ease-in-out"
+    },
+    ID# : "uniqueID123"
 ///
 
 // &Text#
 +
-    Description#: "Main program showcasing the features of hip+ language."
+    Description#: "hip+ empowers developers with advanced features for concurrent and functional programming.",
+    Website#: "https://hippluslang.org"
+///
+
+// &MobileStyle#
++
+    Theme#: "Dark",
+    Navigation#: "Tab Bar",
+    Animations#: "Smooth Transitions"
+///
+
+// &UIElements#
++
+    Buttons#: ["Primary", "Secondary", "Floating"],
+    Forms#: ["Input", "Checkbox", "Radio"]
+///
+
+// &Layout#
++
+    GridSystem#: "12-column",
+    Containers#: ["Fixed", "Fluid"]
+///
+
+// &Media#
++
+    Images#: ["jpg", "png", "gif"],
+    Videos#: ["mp4", "avi", "mkv"],
+    Files#: ["zip", "apk", "ABB"]
 ///
 
 // Function definition with type annotations
-+function$ main() {
-    let greeting#: string = "Hello, hip+!";
-    print$ greeting#;
++function$ calculateFactorial(n#: int +): int {
+    if (n# <= 1 +) {
+        return 1;
+    } +else$ {
+        return n# * calculateFactorial(n# - 1 +);
+    }
 }
 
-// Example usage
-main();
+// Async function with type annotation
++async$ function fetchData(url#: string +): Promise<any> {
+    let response = await fetch(url# +);
+    let data = await response.json +();
+    return data;
+}
 
+// Example usage with type annotations
++let$ result#: int = calculateFactorial(5 +);
++print$ "Factorial of 5: " + result#;
+
++let$ apiData#: Promise<any> = fetchData("https://api.example.com/data#" +);
+apiData#.then(data => +print$ "Fetched data: " + data);
