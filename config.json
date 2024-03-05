@@ -1,11 +1,11 @@
-{
+ {
     "name": "AdvancedHipPlus",
     "paradigms": ["Functional", "Concurrent", "Generative", "FutureEvolution", "QuantumComputing"],
     "memoryManagement": "Automatic",
     "concurrencyModel": "Async/Await",
     "colors": {
-        "text": "#ff0000",  // اللون الأحمر
-        "background": "#800080"  // اللون البنفسجي للخلفية
+        "text": "#ff0000",  // لون الخط (أحمر)
+        "code": "#800080"  // لون الشفرة (بنفسجي)
     },
     "typography": {
         "fontFamily": "Roboto",
@@ -58,5 +58,4 @@
         "videos": ["mp4", "avi", "mkv"],
         "files": ["zip", "apk", "ABB"]
     }
-}
-    
+ }
